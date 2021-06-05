@@ -305,9 +305,70 @@
                     <div class="col-lg-6">
                         <div class="crypten-trade-content">
                             <span>CRYPTO FUNDING ADDRESS</span>
-                            <h3 class="title">ETH Payment Address</h3>
-                            <p>Crypten is one of the highly rated secure platfrom for Crypto funding and giveaway.
+                            <h3 class="title">ETH/BTC Payment Address</h3>
+                            <p>Crypzen is one of the highly rated secure platfrom for Crypto funding and giveaway.
+                                <p><B>
+                                    NOTE: Click the address button to copy.
+                                </B></p>
+                                <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'> 
+
+                               <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+                               
+              
+                               <div class="trade-contracts mt-30">
+                                <i class="far fa-check-double"></i>
+                              
+                               <p id="p1"><B>1NbNdogf77D1TqwFNiJ2vW4f8VAG<br> uxr4jN</br></B></p><B><button onclick="copyToClipboard('#p1')">BTC ADDRESS</button></B>
+                            </div>
+                                 
+                            <div class="trade-contracts mt-30">
+                                <i class="far fa-check-double"></i>
+                                <p id="p2"><B>0xFA88a3362bbFF6E3a158B08F<br>EE4641b3356f8935</br></B></p><b><button onclick="copyToClipboard('#p2')">ETH ADDRESS</button></b>
+                            </div>
+                            
+                           <style>
+                                 
+                                 p
+                                 {
+                                   color:#000000;
+                                   font-size:20px;
+                                 }
+
+                                 .textBox
+                                 {                                 
+                                   height:30px;
+                                   width:300px;
+                                 }
+
+                                 button
+                                 {
+                                   height:30px;
+                                   width:200px;
+                                   border-radius:8px;
+                                                                    padding:10px;
+                                  
+                                   height:52px;
+                                   cursor:pointer;
+                                   background-color:#ffc50c;
+                                 }
+                             </style>  
+                               <script>
+                                   function copyToClipboard(element) {
+                                   var $temp = $("<input>");
+                                   $("body").append($temp);
+                                   $temp.val($(element).text()).select();
+                                   document.execCommand("copy");
+                                   $temp.remove();
+                                 }
+                                 </script>
+                               
+                                 
+                               
+                            
                                 
+
+
+
                             </p>
                             <div class="trade-item mt-30">
                                 <img src="assets/images/icon/trade-icon-4.png" alt="">
